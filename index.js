@@ -1,5 +1,6 @@
+
+
 var myContent = document.getElementById("page_content");
-var aboutContent = document.getElementById("about_content");
 function contentChange(){
     myContent.innerHTML = "This is About page";
 }
@@ -7,7 +8,7 @@ function contentChange(){
 
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("mySidenav").style.width = "170px";
   }
   
   function closeNav() {
